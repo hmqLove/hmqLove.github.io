@@ -1,4 +1,4 @@
-(function($){
+$.(function($){
 	$.fn.snow=function(options){
 		var $flake=$('<div id="flake"/>').css({
 			'position':'absolute',
@@ -37,4 +37,4 @@
 		},
 		options.newOn);
 	};
-})(jQuery);
+});
